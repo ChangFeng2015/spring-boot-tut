@@ -1,0 +1,14 @@
+
+// 在这个段落中你可以声明编译后的Jar文件信息
+jar {
+    baseName = 'taskmgr-ruleengine'
+}
+
+dependencies {
+    compile("org.jeasy:easy-rules-core:${easyRulesVersion}")
+    compile("org.springframework.boot:spring-boot-starter")
+    compile("org.mybatis.spring.boot:mybatis-spring-boot-starter:${mybatisVersion}")
+    runtime("com.h2database:h2:${h2Version}")
+    compile('org.springframework.cloud:spring-cloud-starter-config')
+	compile('org.springframework.boot:spring-boot-starter-actuator')
+}

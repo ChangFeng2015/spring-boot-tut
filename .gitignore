@@ -14,7 +14,7 @@ wrapper/dists/
 **/.project
 **/.classpath
 **/.settings/
-blog/bin/
+**/bin/
 **/.tern-project
 
 #IntelliJ files
@@ -24,4 +24,5 @@ blog/bin/
 #Log file
 *.log
 
-!report/lib/simsun.jar
+docker/db
+**/out
